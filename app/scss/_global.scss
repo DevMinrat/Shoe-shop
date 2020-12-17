@@ -8,6 +8,15 @@ html {
   box-sizing: inherit;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 ul,
 li {
   margin: 0;
@@ -40,4 +49,25 @@ body {
   max-width: 1145px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.section {
+  padding-top: 100px;
+
+  &__header {
+    text-align: center;
+    color: #333;
+    margin-bottom: 60px;
+  }
+  &__suptitle {
+    font-weight: normal;
+    font-size: 21px;
+
+    margin-bottom: 15px;
+  }
+  &__title {
+    font-family: Noto Serif;
+    font-weight: bold;
+    font-size: 30px;
+  }
 }
