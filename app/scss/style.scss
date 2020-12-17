@@ -148,7 +148,7 @@
 
 .gallery-wrapper {
   max-width: 1050px;
-  margin: 0 auto;
+  margin: 0 auto 120px;
 }
 
 .gallery__item {
@@ -247,5 +247,34 @@
       left: 0;
       top: 0;
     }
+  }
+}
+
+// Our shop
+
+.our-shop {
+  width: 100%;
+  max-width: 730px;
+  margin: 0 auto;
+  text-align: center;
+
+  &__text {
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+
+    margin-bottom: 60px;
+  }
+  &__btn {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    color: #333;
+
+    margin: 0 auto;
+    padding: 15px 35px;
+
+    background: #fff;
   }
 }
